@@ -1,0 +1,29 @@
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 90px auto 60px;
+}
+
+.wrap {
+  max-width: 600px;
+  margin: 0 auto 90px;
+  width: 100%;
+}
+
+.wrap h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  display: block;
+  margin: 15px auto;
+}
+
+.wrap textarea {
+  text-align: center;
+  min-height: 20px;
+  min-width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 15px auto 20px;
+  height: 100px;
+  width: 100%;
+}

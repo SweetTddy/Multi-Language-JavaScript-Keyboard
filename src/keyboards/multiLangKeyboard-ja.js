@@ -1,0 +1,73 @@
+multiLangKeyboard.addKeyboard('Japanese', 'ja', [
+  [
+    {default: "\uff5e", shift: null,     alt_shift: null,     alt: null,     special: null       },
+    {default: "\u306c", shift: "\u30cc", alt_shift: null,     alt: null,     special: null       },
+    {default: "\u3075", shift: '\u30d5', alt_shift: null,     alt: null,     special: null       },
+    {default: "\u3042", shift: "\u30a2", alt_shift: "\u3041", alt: "\u30a1", special: null       },
+    {default: "\u3046", shift: "\u30a6", alt_shift: "\u3045", alt: "\u30a5", special: null       },
+    {default: "\u3048", shift: "\u30a8", alt_shift: "\u3047", alt: "\u30a7", special: null       },
+    {default: "\u304a", shift: "\u30aa", alt_shift: "\u3049", alt: "\u30a9", special: null       },
+    {default: "\u3084", shift: "\u30e4", alt_shift: "\u3083", alt: "\u30e3", special: null       },
+    {default: "\u3086", shift: "\u30e6", alt_shift: "\u3085", alt: "\u30e5", special: null       },
+    {default: "\u3088", shift: "\u30e8", alt_shift: "\u3087", alt: "\u30e7", special: null       },
+    {default: "\u308f", shift: "\u30ef", alt_shift: "\u3092", alt: "\u30f2", special: null       },
+    {default: "\u307b", shift: "\u30db", alt_shift: "\u30fc", alt: "\uff1d", special: null       },
+    {default: "\u3078", shift: "\u30d8", alt_shift:  "\uff3e",alt:  "\uff5e",special: null       },
+    {default: null,     shift: null,     alt_shift: null,     alt: null,     special: "backspace"}
+  ],
+  [
+    {default: null,     shift: null,     alt_shift: null,     alt: null,     special: "spacer"},
+    {default: "\u305f", shift: "\u30bf", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u3066", shift: "\u30c6", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u3044", shift: "\u30a4", alt_shift: "\u3043", alt: "\u30a3", special: null    },
+    {default: "\u3059", shift: "\u30b9", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u304b", shift: "\u30ab", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u3093", shift: "\u30f3", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u306a", shift: "\u30ca", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u306b", shift: "\u30cb", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u3089", shift: "\u30e9", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u305b", shift: "\u30bb", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u3001", shift: "\u3001", alt_shift: "\uff20", alt: "\u2018", special: null    },
+    {default: "\u3002", shift: "\u3002", alt_shift: "\u300c", alt: "\uff5b", special: null    },
+    {default: "\uffe5", shift: "",       alt_shift: "",       alt: "\uff0a", special: null    },
+    {default: '\u309B', shift: '"',      alt_shift: "\uffe5", alt: "\uff5c", special: null    },
+    {default: null,     shift: null,     alt_shift: null,     alt: null,     special: "spacer"}
+  ],
+  [
+    {default: null,     shift: null,     alt_shift: null,     alt: null,     special: "spacer"},
+    {default: "\u3061", shift: "\u30c1", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u3068", shift: "\u30c8", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u3057", shift: "\u30b7", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u306f", shift: "\u30cf", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u304d", shift: "\u30ad", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u304f", shift: "\u30af", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u307e", shift: "\u30de", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u306e", shift: "\u30ce", alt_shift: null,     alt: null,     special: null    },
+    {default: "\u308c", shift: "\u30ec", alt_shift: "\uff1b", alt: "\uff0b", special: null    },
+    {default: "\u3051", shift: "\u30b1", alt_shift: "\uff1a", alt: "\u30f6", special: null    },
+    {default: "\u3080", shift: "\u30e0", alt_shift: "\u300d", alt: "\uff5d", special: null    },
+    {default: null,     shift: null,     alt_shift: null,     alt: null,     special: "enter" }
+  ],
+  [
+    {default: null,     shift: null,     alt_shift: null,     alt: null,     special: "shift"},
+    {default: "\u3064", shift: "\u30c4", alt_shift: null,     alt: null,     special: null   },
+    {default: "\u3055", shift: "\u30b5", alt_shift: null,     alt: null,     special: null   },
+    {default: "\u305d", shift: "\u30bd", alt_shift: null,     alt: null,     special: null   },
+    {default: "\u3072", shift: "\u30d2", alt_shift: null,     alt: null,     special: null   },
+    {default: "\u3053", shift: "\u30b3", alt_shift: null,     alt: null,     special: null   },
+    {default: "\u307f", shift: "\u30df", alt_shift: null,     alt: null,     special: null   },
+    {default: "\u3082", shift: "\u30e2", alt_shift: null,     alt: null,     special: null   },
+    {default: "\u306d", shift: "\u30cd", alt_shift: "\u3001", alt: "\uff1c", special: null   },
+    {default: "\u308b", shift: "\u30eb", alt_shift: "\u3002", alt: "\uff1e", special: null   },
+    {default: "\u3081", shift: "\u30e1", alt_shift: "\u30fb", alt: "\uff1f", special: null   },
+    {default: "\u308d", shift: "\u30ed", alt_shift: "",       alt: "\uff3f", special: null   },
+    {default: null,     shift: null,     alt_shift: null,     alt: null,     special: "shift"}
+  ],
+  [
+    {default: null, shift: null, alt_shift: null, alt: null, special: "spacer"},
+    {default: null, shift: null, alt_shift: null, alt: null, special: "alt"   },
+    {default: null, shift: null, alt_shift: null, alt: null, special: "space" },
+    {default: null, shift: null, alt_shift: null, alt: null, special: "alt"   },
+    {default: null, shift: null, alt_shift: null, alt: null, special: "spacer"}
+  ]
+]);

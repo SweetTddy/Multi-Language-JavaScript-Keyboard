@@ -1,0 +1,116 @@
+.multi-lang-keyboard-wrap,
+.multi-lang-keyboard-wrap * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.multi-lang-keyboard-wrap {
+  font-family: "Charis SIL", "Gentium Plus", "Doulos SIL", "Segoe UI", "DejaVu Sans", "Lucida Grande", "Arial", sans-serif;
+  text-align: center;
+  max-width: 600px;
+  display: block;
+  padding: 5px;
+  margin: 5px auto;
+  width: 100%;
+
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.38);;
+  -moz-box-shadow:    0 0 3px rgba(0, 0, 0, 0.38);;
+  box-shadow:         0 0 3px rgba(0, 0, 0, 0.38);;
+}
+
+.multi-lang-keyboard-wrap table {
+  border-collapse: separate;
+  border-spacing: 7px 5px;
+  width: 100%;
+}
+
+.multi-lang-keyboard-wrap table tr {width: 100%;}
+
+.multi-lang-keyboard-wrap table tr td.key,
+.multi-lang-keyboard-wrap table tr td.special-key {
+  cursor: pointer;
+  height: 30px;
+
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow:    0 0 3px rgba(0, 0, 0, 0.37);
+  box-shadow:         0 0 3px rgba(0, 0, 0, 0.37);
+}
+
+.multi-lang-keyboard-wrap table tr td.key {width: 30px;}
+
+.multi-lang-keyboard-wrap table tr td.key:hover,
+.multi-lang-keyboard-wrap table tr td.special-key:hover {
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow:    0 0 3px rgba(0, 0, 0, 0.72);
+  box-shadow:         0 0 3px rgba(0, 0, 0, 0.72);
+}
+
+.multi-lang-keyboard-wrap table tr td.key:active,
+.multi-lang-keyboard-wrap table tr td.special-key:active {
+  -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow:    inset 0 0 4px rgba(0, 0, 0, 0.52);
+  box-shadow:         inset 0 0 4px rgba(0, 0, 0, 0.52);
+}
+
+.multi-lang-keyboard-wrap table tr td.key {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.multi-lang-keyboard-wrap table tr td span.alt-shift { display: none; }
+.multi-lang-keyboard-wrap table tr td span.shift     { display: none; }
+.multi-lang-keyboard-wrap table tr td span.alt       { display: none; }
+
+.multi-lang-keyboard-wrap .special-key[data-action="backspace"] { min-width: 90px; }
+.multi-lang-keyboard-wrap .special-key[data-action="enter"]     { min-width: 80px; }
+.multi-lang-keyboard-wrap .special-key[data-action="shift"]     { min-width: 80px; }
+.multi-lang-keyboard-wrap .special-key[data-action="space"]     { width: 200px;    }
+.multi-lang-keyboard-wrap .special-key[data-action="alt"]       { width: 90px;     }
+
+
+/* regular key states */
+/* -------------------------------------------- */
+
+/* shift */
+.multi-lang-keyboard-wrap[data-shift="true"][data-alt="false"] span.alt-shift { display: none !important;  }
+.multi-lang-keyboard-wrap[data-shift="true"][data-alt="false"] span.default   { display: none !important;  }
+.multi-lang-keyboard-wrap[data-shift="true"][data-alt="false"] span.shift     { display: block !important; }
+.multi-lang-keyboard-wrap[data-shift="true"][data-alt="false"] span.alt       { display: none !important;  }
+
+/* alt */
+.multi-lang-keyboard-wrap[data-shift="false"][data-alt="true"] span.alt-shift { display: none !important;  }
+.multi-lang-keyboard-wrap[data-shift="false"][data-alt="true"] span.default   { display: none !important;  }
+.multi-lang-keyboard-wrap[data-shift="false"][data-alt="true"] span.shift     { display: none !important;  }
+.multi-lang-keyboard-wrap[data-shift="false"][data-alt="true"] span.alt       { display: block !important; }
+
+/* shift + alt */
+.multi-lang-keyboard-wrap[data-shift="true"][data-alt="true"] span.alt-shift { display: block !important; }
+.multi-lang-keyboard-wrap[data-shift="true"][data-alt="true"] span.default   { display: none !important;  }
+.multi-lang-keyboard-wrap[data-shift="true"][data-alt="true"] span.shift     { display: none !important;  }
+.multi-lang-keyboard-wrap[data-shift="true"][data-alt="true"] span.alt       { display: none !important;  }
+
+/* -------------------------------------------- */
+
+
+/* special key selection effect */
+/* -------------------------------------------- */
+.multi-lang-keyboard-wrap[data-shift="true"] .special-key[data-action="shift"] {
+  outline: none;
+
+  -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow:    inset 0 0 4px rgba(0, 0, 0, 0.52);
+  box-shadow:         inset 0 0 4px rgba(0, 0, 0, 0.52);
+}
+
+.multi-lang-keyboard-wrap[data-alt="true"] .special-key[data-action="alt"] {
+  outline: none;
+
+  -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow:    inset 0 0 4px rgba(0, 0, 0, 0.52);
+  box-shadow:         inset 0 0 4px rgba(0, 0, 0, 0.52);
+}
+/* -------------------------------------------- */

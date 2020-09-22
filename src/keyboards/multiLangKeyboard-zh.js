@@ -1,0 +1,71 @@
+multiLangKeyboard.addKeyboard('Chinese', 'zh', [
+  [
+    {default: "\u20AC", shift: "~",  alt_shift: null, alt: null, special: null       },
+    {default: "1",      shift: "!",  alt_shift: null, alt: null, special: null       },
+    {default: "2",      shift: "@",  alt_shift: null, alt: null, special: null       },
+    {default: "3",      shift: "#",  alt_shift: null, alt: null, special: null       },
+    {default: "4",      shift: "$",  alt_shift: null, alt: null, special: null       },
+    {default: "5",      shift: "%",  alt_shift: null, alt: null, special: null       },
+    {default: "6",      shift: "^",  alt_shift: null, alt: null, special: null       },
+    {default: "7",      shift: "&",  alt_shift: null, alt: null, special: null       },
+    {default: "8",      shift: "*",  alt_shift: null, alt: null, special: null       },
+    {default: "9",      shift: ")",  alt_shift: null, alt: null, special: null       },
+    {default: "0",      shift: "(",  alt_shift: null, alt: null, special: null       },
+    {default: "-",      shift: "_",  alt_shift: null, alt: null, special: null       },
+    {default: "=",      shift: "+",  alt_shift: null, alt: null, special: null       },
+    {default: null,     shift: null, alt_shift: null, alt: null, special: "backspace"}
+  ],
+  [
+    {default: null,     shift: null, alt_shift: null, alt: null, special: "spacer"},
+    {default: "\u624B", shift: "q",  alt_shift: null, alt: null, special: null    },
+    {default: "\u7530", shift: "w",  alt_shift: null, alt: null, special: null    },
+    {default: "\u6C34", shift: "e",  alt_shift: null, alt: null, special: null    },
+    {default: "\u53E3", shift: "r",  alt_shift: null, alt: null, special: null    },
+    {default: "\u5EFF", shift: "t",  alt_shift: null, alt: null, special: null    },
+    {default: "\u535C", shift: "y",  alt_shift: null, alt: null, special: null    },
+    {default: "\u5C71", shift: "u",  alt_shift: null, alt: null, special: null    },
+    {default: "\u6208", shift: "i",  alt_shift: null, alt: null, special: null    },
+    {default: "\u4EBA", shift: "o",  alt_shift: null, alt: null, special: null    },
+    {default: "\u5FC3", shift: "p",  alt_shift: null, alt: null, special: null    },
+    {default: "[",      shift: "{",  alt_shift: null, alt: null, special: null    },
+    {default: "]",      shift: "}",  alt_shift: null, alt: null, special: null    },
+    {default: "\\",     shift: "|",  alt_shift: null, alt: null, special: null    },
+    {default: null,     shift: null, alt_shift: null, alt: null, special: "spacer"}
+  ],
+  [
+    {default: null,     shift: null, alt_shift: null, alt: null, special: "spacer"},
+    {default: "\u65E5", shift: "a",  alt_shift: null, alt: null, special: null    },
+    {default: "\u5C38", shift: "s",  alt_shift: null, alt: null, special: null    },
+    {default: "\u6728", shift: "d",  alt_shift: null, alt: null, special: null    },
+    {default: "\u706B", shift: "f",  alt_shift: null, alt: null, special: null    },
+    {default: "\u571F", shift: "g",  alt_shift: null, alt: null, special: null    },
+    {default: "\u7AF9", shift: "h",  alt_shift: null, alt: null, special: null    },
+    {default: "\u5341", shift: "j",  alt_shift: null, alt: null, special: null    },
+    {default: "\u5927", shift: "k",  alt_shift: null, alt: null, special: null    },
+    {default: "\u4E2D", shift: "l",  alt_shift: null, alt: null, special: null    },
+    {default: ";",      shift: ":",  alt_shift: null, alt: null, special: null    },
+    {default: "'",      shift: '"',  alt_shift: null, alt: null, special: null    },
+    {default: null,     shift: null, alt_shift: null, alt: null, special: "spacer"}
+  ],
+  [
+    {default: null,     shift: null, alt_shift: null, alt: null, special: "shift"},
+    {default: "\uFF3A", shift: "z",  alt_shift: null, alt: null, special: null   },
+    {default: "\u96E3", shift: "x",  alt_shift: null, alt: null, special: null   },
+    {default: "\u91D1", shift: "c",  alt_shift: null, alt: null, special: null   },
+    {default: "\u5973", shift: "v",  alt_shift: null, alt: null, special: null   },
+    {default: "\u6708", shift: "b",  alt_shift: null, alt: null, special: null   },
+    {default: "\u5F13", shift: "n",  alt_shift: null, alt: null, special: null   },
+    {default: "\u4E00", shift: "m",  alt_shift: null, alt: null, special: null   },
+    {default: ",",      shift: "<",  alt_shift: null, alt: null, special: null   },
+    {default: ".",      shift: ">",  alt_shift: null, alt: null, special: null   },
+    {default: "/",      shift: "?",  alt_shift: null, alt: null, special: null   },
+    {default: null,     shift: null, alt_shift: null, alt: null, special: "shift"}
+  ],
+  [
+    {default: null, shift: null, alt_shift: null, alt: null, special: "spacer"},
+    {default: null, shift: null, alt_shift: null, alt: null, special: "alt"   },
+    {default: null, shift: null, alt_shift: null, alt: null, special: "space" },
+    {default: null, shift: null, alt_shift: null, alt: null, special: "alt"   },
+    {default: null, shift: null, alt_shift: null, alt: null, special: "spacer"}
+  ]
+]);
